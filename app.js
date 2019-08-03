@@ -1,1 +1,2 @@
-var g = G$('John',' Doe');
+var g = G$('John', 'Doe');
+console.log(g);
