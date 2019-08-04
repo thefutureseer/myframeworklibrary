@@ -1,7 +1,6 @@
-//Safe code, iife, takes in two objects window and jQuery
-(function(global, $) {
+;(function(global, $) {
     
-  // 'new' object so we don't have to keep using new. 
+  // 'new' an object
   var Greetr = function(firstName, lastName, language) {
       return new Greetr.init(firstName, lastName, language);   
   }
@@ -27,7 +26,7 @@
       es: 'Inició sesión'
   };
   
-  // prototype holds methods (to save memory space cleaner too)
+  // prototype holds methods (to save memory space)
   Greetr.prototype = {
       
       // 'this' refers to the calling object at execution time
